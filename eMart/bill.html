@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+	<style>
+	.card-width{
+	width: 220px;
+	}
+	.img-size{
+	height: 200px;
+	</style>
+	</head>
+  <body>
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+	<a class="navbar-brand" href="#">
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/f4/62/cb/f462cb02-581d-bc3c-e90a-1ee9653d77ff/source/512x512bb.jpg" alt="Logo" style="width:40px;">
+  </a>
+        <a class="navbar-brand ml-auto" href="index.html">Emart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link  float-right text-white" href="emart.html">Menu</a>
+                </li>
+                
+                
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <div class="input-group input-group-sm">
+                    
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</nav>
+  <div class="container">
+   
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card ">
+                <div class="card-header">
+                    <h3 class="text-xs-center"><strong>Order summary</strong></h3>
+                </div>
+                <div class="card-block">
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <td><strong>Item Name</strong></td>
+                                    <td class="text-xs-center"><strong>Item Price</strong></td>
+                                    <td class="text-xs-center"><strong>Item Quantity</strong></td>
+                                    <td class="text-xs-right"><strong>Total</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Fossil watch</td>
+                                    <td class="text-xs-center">13000</td>
+                                    <td class="text-xs-center">1</td>
+                                    <td class="text-xs-right">13000</td>
+                                </tr>
+                                <tr>
+                                    <td>Iphone XR</td>
+                                    <td class="text-xs-center">80000</td>
+                                    <td class="text-xs-center">1</td>
+                                    <td class="text-xs-right">80000</td>
+                                </tr>
+                                <tr>
+                                    <td>Mavlon lipstick</td>
+                                    <td class="text-xs-center">700</td>
+                                    <td class="text-xs-center">2</td>
+                                    <td class="text-xs-right">1400</td>
+                                </tr>
+                                <tr>
+                                    <td class="highrow"></td>
+                                    <td class="highrow"></td>
+                                    <td class="highrow text-xs-center"><strong>Subtotal</strong></td>
+                                    <td class="highrow text-xs-right">94000</td>
+                                </tr>
+                                <tr>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow text-xs-center"><strong>Shipping</strong></td>
+                                    <td class="emptyrow text-xs-right">500</td>
+                                </tr>
+                                <tr>
+                                    <td class="emptyrow"><i class="fa fa-barcode iconbig"></i></td>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow text-xs-center"><strong>Total</strong></td>
+                                    <td class="emptyrow text-xs-right">94500</td>
+                                </tr>
+
+                        </div>
+                            </tbody>
+                        </table>
+						<tr>
+      <td class="emptyrow"></td>
+                                   <td class="emptyrow"></td>
+                                   <button class="btn btn-warning btn-lg btn-block">Process payment</button>
+</tr>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.height {
+    min-height: 200px;
+}
+
+.icon {
+    font-size: 47px;
+    color: #5CB85C;
+}
+
+.iconbig {
+    font-size: 77px;
+    color: #5CB85C;
+}
+
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+</style>
+
+<div class="col"></div>
+  </div>
+  </div>
+  
+  <div class="card-footer bg-dark text-center text-white fixed-bottom">
+ <i class="material-icons" style="font-size: 25px;">copyright</i>Copyright 2020
+ </div>
+</body>
+</html>  
